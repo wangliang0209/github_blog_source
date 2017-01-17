@@ -5,10 +5,12 @@
 # Site
 title: 王亮的博客
 subtitle:
-description:
+description: 简单坚持
 author: wangliang0209
-language:
+language: zh-Hans
 timezone:
+
+avatar: http://wangliang0209.github.io/uploads/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -5,6 +5,9 @@ tags:
 ---
 #### 本文只是我自己的博客创建步骤，仅供参考，我是基于hexo jackman主题创建的。####
 - 1.[下载node](https://nodejs.org/en/) ，解压后配置path到bin目录下
+
+<!--more-->
+
 - 2.运行npm_install.sh，[点击这里下载](https://wangliang0209.github.io/npm_install.sh)，注意这个文件如果不是可执行文件运行如下命令
   ```
     chmod +x npm_install.sh
@@ -63,5 +66,5 @@ tags:
     ```
     > hexo deploy
     ```
-    
+
 - 7.到此博客算是部署成功了    
