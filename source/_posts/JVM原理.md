@@ -4,6 +4,7 @@ date: 2017-02-06 16:58:57
 tags: [Java]
 ---
 参考 [http://blog.csdn.net/witsmakemen/article/details/28600127/](http://blog.csdn.net/witsmakemen/article/details/28600127/)
+<!-- more -->  
 - ### JVM的生命周期 ###
   Java虚拟机的生命周期 一个运行中的Java虚拟机有着一个清晰的任务：执行Java程序。 Java虚拟机总是开始于一个main()方法，这个方法必须是公有、返回void、直接受一个字符串数组。`public static void main(String[] args){}`。Java中的线程分为两种：守护线程 （daemon）和普通线程（non-daemon）。守护线程是Java虚拟机自己使用的线程，比如负责垃圾收集的线程就是一个守护线程。当然，你也可 以把自己的程序设置为守护线程。包含Main()方法的初始线程不是守护线程。 只要Java虚拟机中还有普通的线程在执行，Java虚拟机就不会停止。如果有足够的权限，你可以调用exit()方法终止程序。
 - ### JVM的体系结构 ###
